@@ -58,7 +58,7 @@ GEN                99.97 (0.03)           99.17 (0.58)  0.88 (0.00)  0.17 (0.00)
 | `data`			| Contains the data in numpy arrays. |  
 | `dataset`			| Code for loading data. |  
 | `evaluate`		| Implementations of all the metrics. |  
-| `output`			| Directory to hold computed results. |  
+| `output`			| Directory to hold computed results. Directory already contains results from paper. |  
 | `config.py`		| Reads config files from `configs` |  
 | `constants.py`	| Method and metric names. |  
 | `listing.py`		| Utility for indexing output dirs (see description below) |  
