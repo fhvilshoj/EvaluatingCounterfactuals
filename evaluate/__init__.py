@@ -1,4 +1,3 @@
-import torch
 import pickle
 import os
 from   tabulate import tabulate
