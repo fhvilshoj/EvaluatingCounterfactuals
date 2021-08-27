@@ -1,0 +1,15 @@
+name: cfeval
+channels:
+    - conda
+dependencies:
+    - python=3.7
+    - numpy=1.19.*
+    - natsort=7.1.1              
+    - numpy=1.19.*           
+    - scipy=1.6.*           
+    - tabulate=0.8.9        
+    - tensorflow=2.4.1         
+    - pip
+    - pip:
+        - tqdm==4.60.0
+
