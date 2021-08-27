@@ -50,7 +50,8 @@ GEN                99.97 (0.03)           99.17 (0.58)  0.88 (0.00)  0.17 (0.00)
 
 **Directory overview:** 
 
-|:------------------|:-----------------|  
+| File	| Description |  
+| ----------------- | ----------------- |  
 | `ckpts` 			| Contains all the (Keras) models used by the various metrics. |  
 | `data` 			| Contains the data used, both counterfactual examples from GB, GL, and GEN, and original input data. |  
 | `configs` 		| Contains config files specifying experimental details like dataset, normalization, etc. |  
