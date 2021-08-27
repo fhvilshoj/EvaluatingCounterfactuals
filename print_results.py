@@ -4,11 +4,13 @@ from tabulate import tabulate
 
 from constants import METHOD_NAMES, METRIC_NAMES
 
+hundredX = lambda mu, std, n: "%.2f (%.2f)" % (mu*100, std*100)
 format_fns = {
-    'IM2': lambda mu, std, n: "%.2f (%.2f)" % (mu*100, std*100),
+    'IM2': hundredX,
+    'Oracle': hundredX,
+    'TargetClassValidity': hundredX,
     'FID': lambda mu, std, n: "%.2f" % mu
 }
-
 
 def fn(args, cfg):
     out_path = os.path.join(cfg.get('checkpoints', 'output_dir'), 'results.json')
