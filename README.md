@@ -49,18 +49,19 @@ GEN                99.97 (0.03)           99.17 (0.58)  0.88 (0.00)  0.17 (0.00)
 ```
 
 **Directory overview:** 
-|:------------------|:-----------------|
-| `ckpts` 			| Contains all the (Keras) models used by the various metrics. |
-| `data` 			| Contains the data used, both counterfactual examples from GB, GL, and GEN, and original input data. |
-| `configs` 		| Contains config files specifying experimental details like dataset, normalization, etc. |
-| `data`			| Contains the data in numpy arrays. |
-| `dataset`			| Code for loading data. |
-| `evaluate`		| Implementations of all the metrics. |
-| `output`			| Directory to hold computed results. |
-| `config.py`		| Reads config files from `configs` |
-| `constants.py`	| Method and metric names. |
-| `listing.py`		| Utility for indexing output dirs (see description below) |
-| `main.py`			| Main file to run all code through. |
-| `print_results.py`| Utillity function for printing results from json files in the `output` directory. |
 
+|:------------------|:-----------------|  
+| `ckpts` 			| Contains all the (Keras) models used by the various metrics. |  
+| `data` 			| Contains the data used, both counterfactual examples from GB, GL, and GEN, and original input data. |  
+| `configs` 		| Contains config files specifying experimental details like dataset, normalization, etc. |  
+| `data`			| Contains the data in numpy arrays. |  
+| `dataset`			| Code for loading data. |  
+| `evaluate`		| Implementations of all the metrics. |  
+| `output`			| Directory to hold computed results. |  
+| `config.py`		| Reads config files from `configs` |  
+| `constants.py`	| Method and metric names. |  
+| `listing.py`		| Utility for indexing output dirs (see description below) |  
+| `main.py`			| Main file to run all code through. |  
+| `print_results.py`| Utillity function for printing results from json files in the `output` directory. |  
+  
 
